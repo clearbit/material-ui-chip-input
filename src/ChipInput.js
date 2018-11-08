@@ -622,7 +622,7 @@ ChipInput.propTypes = {
   /** The chips to display (enables controlled mode if set). */
   value: PropTypes.array,
   /** The variant of the Input component */
-  variant: PropTypes.oneOf(['outlined', 'standard', 'filled'])
+  variant: PropTypes.oneOf(['outlined', 'standard', 'filled', 'base'])
 }
 
 ChipInput.defaultProps = {
