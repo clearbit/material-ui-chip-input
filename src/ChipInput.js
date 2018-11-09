@@ -8,7 +8,7 @@ import PropTypes from 'prop-types'
 import Input from '@material-ui/core/Input'
 import FilledInput from '@material-ui/core/FilledInput/FilledInput'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
-import InputBase from '@material-ui/core/InputBase';
+import InputBase from '@material-ui/core/InputBase'
 import InputLabel from '@material-ui/core/InputLabel'
 import Chip from '@material-ui/core/Chip'
 import withStyles from '@material-ui/core/styles/withStyles'
@@ -21,7 +21,7 @@ const variantComponent = {
   standard: Input,
   filled: FilledInput,
   outlined: OutlinedInput,
-  base: InputBase,
+  base: InputBase
 }
 
 const styles = (theme) => {
